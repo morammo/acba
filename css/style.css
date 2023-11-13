@@ -141,7 +141,7 @@ body {
 }
 
 .header {
-  background-color: #2d56c7;
+  background-color: #3f69df;
   font-family: sans-serif;
   position: fixed;
   top: 0;
@@ -189,7 +189,7 @@ body {
 
 .header__online {
   text-align: right;
-  background-color: #2d56c7;
+  background-color: #698ef5;
   font-size: 1.125rem;
 }
 
@@ -891,13 +891,13 @@ body {
 }
 
 @media (min-width: 20em) and (max-width: 27.5em) {
-  @supports (width: clamp(18.75rem, 2.0833333333rem + 83.3333333333vw, 25rem)) {
+  @supports (width: clamp(18.75rem, 2.0833333333rem + 83.3333333333vw, 23rem)) {
     .item-reviews__info {
-      width: clamp(18.75rem, 2.0833333333rem + 83.3333333333vw, 25rem);
+      width: clamp(18.75rem, 2.0833333333rem + 83.3333333333vw, 23rem);
     }
   }
 
-  @supports not (width: clamp(18.75rem, 2.0833333333rem + 83.3333333333vw, 25rem)) {
+  @supports not (width: clamp(18.75rem, 2.0833333333rem + 83.3333333333vw, 23rem)) {
     .item-reviews__info {
       width: calc(18.75rem + 6.25 * (100vw - 20rem) / 7.5);
     }
